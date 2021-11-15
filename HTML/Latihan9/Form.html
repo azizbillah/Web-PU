@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML - Form</title>
+</head>
+<body>
+	<form>
+		<table border="1" cellspacing="0" cellpadding="5">
+			<tr>
+		
+				<!--Username -->
+				<td><label for="username"> username :</label></td>
+				<td><input type="text" id="username"> </td>
+			</tr>
+
+				<!-- password -->
+            <tr>
+				<td><label for="password"> pasword : </label> </td>
+				<td><input type="password" id="pasword"> </td>
+			</tr>
+
+			   <!-- Jenis Kelamin -->
+			<tr>
+
+				<td colspan="2">
+
+					<input type="radio" id="pria" name="jenis kelamin">
+					<label for="pria">pria</label>
+
+					<input type="radio" id="wanita" name="jenis kelamin">
+					<label for="wanita">wanita</label>
+				</td>
+			</tr>
+				<!-- Hoby -->
+			<tr>
+
+				<td colspan="2">
+					<input type="checkbox" id="menyanyi"> <label for = "menyanyi "> menyanyi</label>
+
+					<input type="checkbox" id="olahraga"> <label for = "olahraga ">olahraga</label>
+
+					<input type="checkbox" id="ngoding"> <label for = "ngoding">ngoding</label>
+
+			    </td>
+
+			</tr>
+
+				<!-- Daerah Asal -->
+			<tr>
+				<td> Asal Kota</td>
+				<td>
+					
+					<select>
+						<option>Bandung</option>
+						<option>Garut</option>
+						<option>Cimahi</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Komentar :</td>
+				<td><textarea></textarea></td>				
+			</tr>
+			<tr>
+				
+				<td colspan="2">
+					<button type="submit">Kirim !</button>
+
+				</td>
+			</tr>
+
+
+
+
+
+		
+		
+		</table>
+
+	</form>
+</body>
+</html>
